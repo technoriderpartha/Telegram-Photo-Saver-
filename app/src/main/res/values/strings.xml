@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Telegram Photo Saver</string>
+
+    <!-- Login -->
+    <string name="login_connecting">Connecting to Telegram…</string>
+    <string name="login_need_credentials">First, enter your Telegram API ID and API hash. You can get both for free at my.telegram.org (log in, then open "API development tools"). They stay on this phone.</string>
+    <string name="login_need_phone">Enter the phone number of your Telegram account, with country code.</string>
+    <string name="login_need_code">Telegram sent you a login code. Check your Telegram app on another device (or SMS) and enter it here.</string>
+    <string name="login_need_password">This account has two-step verification. Enter your password. %1$s</string>
+    <string name="api_id_hint">API ID</string>
+    <string name="api_hash_hint">API hash</string>
+    <string name="phone_hint">Phone number (e.g. +91XXXXXXXXXX)</string>
+    <string name="code_hint">Login code</string>
+    <string name="password_hint">Two-step verification password</string>
+    <string name="continue_label">Continue</string>
+    <string name="send_code">Send code</string>
+    <string name="confirm">Confirm</string>
+    <string name="reset_credentials">Change API ID / hash</string>
+    <string name="error_bad_credentials">Enter the numeric API ID and the API hash (a long string of letters and digits).</string>
+    <string name="error_bad_phone">Enter your full phone number including the country code.</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+
+    <!-- Channels -->
+    <string name="your_channels">Your channels</string>
+    <string name="reload">Reload</string>
+    <string name="log_out">Log out</string>
+    <string name="filter_hint">Search channels</string>
+    <string name="channels_loading">Loading your channels…</string>
+    <string name="channels_none">No channels found on this account.</string>
+    <string name="channels_count">%1$d channels. Tap one to see its photos.</string>
+
+    <!-- Photos -->
+    <string name="load_older">Load older</string>
+    <string name="select_all">Select all</string>
+    <string name="select_none">Clear selection</string>
+    <string name="download_all">Download all loaded</string>
+    <string name="download_selected">Download %1$d selected</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_loaded">%1$d photos loaded. Tap photos to select them, or tap Load older for more.</string>
+    <string name="status_loaded_end">%1$d photos loaded. That is the whole channel history.</string>
+    <string name="status_no_photos">No photos found in this channel.</string>
+    <string name="status_failed">Failed: %1$s</string>
+    <string name="status_downloading">Downloading %1$d of %2$d…</string>
+    <string name="status_done">Done: %1$d saved, %2$d already saved, %3$d failed.\nFolder: Pictures/TelegramPhotos/%4$s</string>
+</resources>
